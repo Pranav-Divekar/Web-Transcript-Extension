@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Speech to Text</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Speech to Text</h1>
+    <div class="status" id="status">Ready</div>
+    <button id="startBtn" class="btn primary">Start Transcription</button>
+    <button id="stopBtn" class="btn secondary" disabled>Stop</button>
+    <button id="exportBtn" class="btn" disabled>Export Transcript</button>
+    <button id="clearBtn" class="btn">Clear</button>
+    <div class="transcript-preview" id="transcriptPreview"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
